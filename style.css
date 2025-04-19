@@ -21,4 +21,7 @@ main .section-button a {
   display: block;
   text-decoration: none;
   color: white;
+}
+main .days {
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
