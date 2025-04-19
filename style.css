@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 main {
@@ -9,16 +9,33 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
-main .section-button {
+main .section-button__menu-conotact {
   padding: 30px;
 }
-main .section-button a {
+main .section-button__menu-conotact .section-button {
+  display: flex;
+}
+main .section-button__menu-conotact .section-button a {
   background-color: transparent;
   border: none;
   outline: none;
-  padding: 30px;
+  padding: 15px;
+  margin: 10px 0;
   background-color: black;
-  display: block;
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
+}
+main .section-button__menu-conotact .section-button a:hover {
+  background-color: rgb(212, 212, 212);
+  color: black;
+}
+
+.div-section-logo h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
 }/*# sourceMappingURL=style.css.map */
