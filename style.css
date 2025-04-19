@@ -37,11 +37,15 @@ main .days {
   bottom: 45px;
   margin-left: 50px;
 }
-main .days div p {
+main .days div .p1 {
   margin: 15px 0;
 }
-main .days div .p3 {
+main .days div .p2 {
+  margin: 20px 0;
   font-size: 20px;
+}
+main .days div .p3 {
+  font-size: 16px;
 }
 main .days div .p3 a {
   color: white;
