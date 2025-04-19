@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 main {
@@ -9,21 +9,42 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 
-    .section-button {
+    .section-button__menu-conotact {
         padding: 30px;
 
-        a {
-            background-color: transparent;
-            border: none;
-            outline: none;
-            padding: 30px;
-            background-color: black;
-            display: block;
-            text-decoration: none;
-            color: white;
+
+        .section-button {
+            display: flex;
+            a {
+                background-color: transparent;
+                border: none;
+                outline: none;
+                padding: 15px;
+                margin: 10px 0;
+                background-color: black;
+                text-decoration: none;
+                color: white;
+                font-size: 1.5rem;
+            }
+
+            a:hover {
+                background-color: rgb(212, 212, 212);
+                color: black;
+            }
         }
     }
     .days{
         font-size: 15px;
+    }
+}
+
+.div-section-logo{
+    h1{
+        position: absolute;
+        top: 50%;
+        left:  50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 4rem;
     }
 }
